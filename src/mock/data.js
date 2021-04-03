@@ -21,7 +21,7 @@ export const aboutData = {
   paragraphOne:
     'Max is a former enterprise software sales and customer facing engineer turned software developer. His interests include reading, running and meditation.',
   paragraphTwo:
-    "Max likes to learn new things and play with tech, he has tried almost every smart home gadget. He also enjoys flying RC planes and drones and is currently trying to pick up the harmonica (it's not going well)",
+    "Max likes to learn new things and play with gadgets, he has tried almost every smart home device. He also enjoys flying RC planes and drones and is currently trying to pick up the harmonica (it's not going well)",
   resume: 'https://www.linkedin.com/in/max-huckstepp/', // if no resume, the button will not show up
 };
 
@@ -32,7 +32,7 @@ export const projectsData = [
     img: 'notxkcd.jpg',
     title: 'notxkcd Web App',
     info:
-      'As a big fan of xkcd comics, I thought the xkcd website was lacking and decided to build my own. Check it out!',
+      'As a big fan of xkcd comics, I thought the xkcd website was lacking and decided to build my own.',
     info2: 'This project utilized react, redux, tailwind.css',
     url: 'https://notxkcd.vercel.app/',
     repo: 'https://github.com/mhuckstepp/notxkcd', // if no repo, the button will not show up
