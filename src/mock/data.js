@@ -42,7 +42,7 @@ export const projectsData = [
     img: 'plants.jpg',
     title: 'Water My Plant',
     info: 'I built this app to help people remember to water their plants on the right schedule.',
-    info2: ' Built with React and Redux',
+    info2: 'Built with React and Redux',
     url: 'https://water-my-plants.vercel.app/',
     repo: 'https://github.com/mhuckstepp/WaterMyPlants', // if no repo, the button will not show up
   },
