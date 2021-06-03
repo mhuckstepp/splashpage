@@ -33,8 +33,8 @@ export const projectsData = [
     title: 'notxkcd Web App',
     info:
       'As a big fan of xkcd comics, I thought the xkcd website was lacking and decided to build my own.',
-    info2: 'This project utilized react, redux, tailwind.css',
-    url: 'https://notxkcd.vercel.app/',
+    info2: 'This project is a monolith built with React, Redux, Tailwind, Node, Express',
+    url: 'https://maxhxkcd.herokuapp.com/',
     repo: 'https://github.com/mhuckstepp/notxkcd', // if no repo, the button will not show up
   },
   {
