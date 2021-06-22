@@ -29,7 +29,7 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'hrf.jpg',
+    img: 'hrf.png',
     title: 'Human Rights First - Blue Witness ',
     info:
       'An application to provide mapping and visibility into 1300+ police use of force events scraped from social media sites for journalists and the general public',
