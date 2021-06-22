@@ -29,6 +29,15 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
+    img: 'hrf.jpg',
+    title: 'Human Rights First - Blue Witness ',
+    info:
+      'An application to provide mapping and visibility into 1300+ police use of force events scraped from social media sites for journalists and the general public',
+    url: 'https://a.humanrightsfirst.dev/',
+    repo: 'https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'notxkcd.jpg',
     title: 'notxkcd Web App',
     info:
