@@ -3,7 +3,7 @@ import { nanoid } from 'nanoid';
 // HEAD DATA
 export const headData = {
   title: 'Max Huckstepp', // e.g: 'Name | Developer'
-  lang: '', // e.g: en, es, fr, jp
+  lang: 'en', // e.g: en, es, fr, jp
   description: 'Hello!', // e.g: Welcome to my website
 };
 
@@ -19,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Max is a former enterprise software sales and customer facing engineer turned software developer. His interests include reading, running and meditation.',
+    'Max is a software developer who has 7+ years experience working for software companies in enterprise sales and customer engineering roles. His interests include reading, running and meditation.',
   paragraphTwo:
     "Max likes to learn new things and play with gadgets, he has tried almost every smart home device. He also enjoys flying RC planes and drones and is currently trying to pick up the harmonica (it's not going well)",
   resume: 'https://www.linkedin.com/in/max-huckstepp/', // if no resume, the button will not show up
@@ -42,7 +42,8 @@ export const projectsData = [
     title: 'notxkcd Web App',
     info:
       'As a big fan of xkcd comics, I thought the xkcd website was lacking and decided to build my own.',
-    info2: 'This project is a monolith built with React, Redux, Tailwind, Node, Express',
+    info2:
+      'This project is a monolith built with React, Redux, Node, Express, Postgres, Tailwind, Cron',
     url: 'https://maxhxkcd.herokuapp.com/',
     repo: 'https://github.com/mhuckstepp/notxkcd', // if no repo, the button will not show up
   },
@@ -50,8 +51,8 @@ export const projectsData = [
     id: nanoid(),
     img: 'plants.jpg',
     title: 'Water My Plant',
-    info: 'I built this app to help people remember to water their plants on the right schedule.',
-    info2: 'Built with React and Redux',
+    info: 'I built this app to help people remember to water their plants at the right time.',
+    info2: 'Built with React, Redux, Node, Express, Postgres, Styled Components',
     url: 'https://water-my-plants.vercel.app/',
     repo: 'https://github.com/mhuckstepp/WaterMyPlants', // if no repo, the button will not show up
   },
