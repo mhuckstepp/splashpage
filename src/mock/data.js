@@ -11,8 +11,7 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Max Huckstepp.',
-  subtitle:
-    'Thanks for visiting, scroll down to see my projects and contact info',
+  subtitle: 'Thanks for visiting, scroll down to see my projects and contact info',
   cta: 'Learn more',
 };
 
@@ -20,7 +19,7 @@ export const heroData = {
 export const aboutData = {
   img: 'profile.jpg',
   paragraphOne:
-    'Max is a software developer who has 7+ years experience working for software companies in enterprise sales and customer engineering roles. His interests include reading, running and meditation.',
+    'Max is a software developer who has 7+ years experience working for software companies in the Robotics and Industrial IoT industries. His interests outside of work include reading, running and meditation.',
   paragraphTwo:
     "Max likes to learn new things and play with gadgets, he has tried almost every smart home device. He also enjoys flying RC planes and drones and is currently trying to pick up the harmonica (it's not going well)",
   resume: 'https://www.linkedin.com/in/max-huckstepp/', // if no resume, the button will not show up
@@ -42,9 +41,9 @@ export const projectsData = [
     img: 'notxkcd.jpg',
     title: 'notxkcd Web App',
     info:
-      'As a big fan of xkcd comics, I thought the xkcd website was lacking and decided to build my own.',
+      'As a big fan of xkcd comics, I thought the official xkcd website was lacking and decided to build my own.',
     info2:
-      'This project is a monolith built with React, Redux, Node, Express, Postgres, Tailwind, Cron',
+      'This project is a monolith built with React, Redux, Node, Express, Postgres, Tailwind, react-chart-js, and Cron',
     url: 'https://maxhxkcd.herokuapp.com/',
     repo: 'https://github.com/mhuckstepp/notxkcd', // if no repo, the button will not show up
   },
@@ -52,10 +51,12 @@ export const projectsData = [
     id: nanoid(),
     img: 'plants.jpg',
     title: 'Water My Plant',
-    info: 'I built this app to help people remember to water their plants at the right time.',
-    info2: 'Built with React, Redux, Node, Express, Postgres, Styled Components',
+    info:
+      'I built this app to help people remember to water their plants at the right time. The site checks local weather to update watering schedule when it rains and sends email notifications to users to water.',
+    info2:
+      'Built with React, Redux, Node, Express, Postgres, Styled Components, Heroku Scheduler, SendGrid API, OpenWeather API',
     url: 'https://water-my-plants.vercel.app/',
-    repo: 'https://github.com/mhuckstepp/WaterMyPlants', // if no repo, the button will not show up
+    repo: 'https://github.com/mhuckstepp/backendwaterplants', // if no repo, the button will not show up
   },
 ];
 
@@ -69,12 +70,6 @@ export const contactData = {
 // FOOTER DATA
 export const footerData = {
   networks: [
-    {
-      id: nanoid(),
-      name: 'twitter',
-      url: 'https://twitter.com/home',
-    },
-
     {
       id: nanoid(),
       name: 'linkedin',
