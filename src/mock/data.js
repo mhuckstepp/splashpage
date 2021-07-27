@@ -11,13 +11,13 @@ export const headData = {
 export const heroData = {
   title: '',
   name: 'Max Huckstepp.',
-  subtitle: 'Thanks for visiting, scroll down to see my projects and contact info',
+  subtitle: 'Thanks for visiting, scroll down to see my projects and contact info.',
   cta: 'Learn more',
 };
 
 // ABOUT DATA
 export const aboutData = {
-  img: 'profile.jpg',
+  img: 'profile.jpeg',
   paragraphOne:
     'Max is a software developer who has 7+ years experience working for software companies in the Robotics and Industrial IoT industries. His interests outside of work include reading, running and meditation.',
   paragraphTwo:
@@ -38,7 +38,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'notxkcd.jpg',
+    img: 'notxkcd.jpeg',
     title: 'notxkcd Web App',
     info:
       'As a big fan of xkcd comics, I thought the official xkcd website was lacking and decided to build my own.',
@@ -49,7 +49,7 @@ export const projectsData = [
   },
   {
     id: nanoid(),
-    img: 'plants.jpg',
+    img: 'plants.jpeg',
     title: 'Water My Plant',
     info:
       'I built this app to help people remember to water their plants at the right time. The site checks local weather to update watering schedule when it rains and sends email notifications to users to water.',
