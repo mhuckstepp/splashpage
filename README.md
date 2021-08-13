@@ -1,7 +1,6 @@
 ## Max Huckstepp's Simple Portfolio
 
-Built from a template and personalized with Max's information and project links.
-
+Built from a template and personalized with Max's information and project links. \*
 Template authored by **Jacobo Martinez** - [https://github.com/cobidev](https://github.com/cobidev)
 
 ## License 📄
