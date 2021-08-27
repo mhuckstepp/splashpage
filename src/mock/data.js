@@ -29,15 +29,6 @@ export const aboutData = {
 export const projectsData = [
   {
     id: nanoid(),
-    img: 'hrf.png',
-    title: 'Human Rights First - Blue Witness ',
-    info:
-      'An application to provide mapping and visibility into 1300+ police use of force events scraped from social media sites for journalists and the general public',
-    url: 'https://a.humanrightsfirst.dev/',
-    repo: 'https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a', // if no repo, the button will not show up
-  },
-  {
-    id: nanoid(),
     img: 'notxkcd.jpeg',
     title: 'notxkcd Web App',
     info:
@@ -49,6 +40,14 @@ export const projectsData = [
   },
   {
     id: nanoid(),
+    img: 'maxrunmax.png',
+    title: 'Auth0 and Strava Animated Integration Overview',
+    info: 'This project is built with React, Auth0 authentication, Strava API, and react-spring.',
+    url: 'https://www.maxrunmax.xyz/',
+    repo: 'https://github.com/mhuckstepp/maxHStravaViz', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
     img: 'plants.jpeg',
     title: 'Water My Plants',
     info:
@@ -57,6 +56,15 @@ export const projectsData = [
       'Built with React, Redux, Node, Express, Postgres, Styled Components, Heroku Scheduler, SendGrid API, OpenWeather API',
     url: 'https://water-my-plants.vercel.app/',
     repo: 'https://github.com/mhuckstepp/backendwaterplants', // if no repo, the button will not show up
+  },
+  {
+    id: nanoid(),
+    img: 'hrf.png',
+    title: 'Human Rights First - Blue Witness ',
+    info:
+      'An application to provide mapping and visibility into 1300+ police use of force events scraped from social media sites for journalists and the general public',
+    url: 'https://a.humanrightsfirst.dev/',
+    repo: 'https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a', // if no repo, the button will not show up
   },
 ];
 
