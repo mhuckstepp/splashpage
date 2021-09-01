@@ -57,15 +57,6 @@ export const projectsData = [
     url: 'https://water-my-plants.vercel.app/',
     repo: 'https://github.com/mhuckstepp/backendwaterplants', // if no repo, the button will not show up
   },
-  {
-    id: nanoid(),
-    img: 'hrf.png',
-    title: 'Human Rights First - Blue Witness ',
-    info:
-      'An application to provide mapping and visibility into 1300+ police use of force events scraped from social media sites for journalists and the general public',
-    url: 'https://a.humanrightsfirst.dev/',
-    repo: 'https://github.com/Lambda-School-Labs/human-rights-first-police-fe-a', // if no repo, the button will not show up
-  },
 ];
 
 // CONTACT DATA
